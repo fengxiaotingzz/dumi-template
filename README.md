@@ -1,18 +1,5 @@
 # dumi-template
 
-[![NPM version](https://img.shields.io/npm/v/dumi-template.svg?style=flat)](https://npmjs.org/package/dumi-template)
-[![NPM downloads](http://img.shields.io/npm/dm/dumi-template.svg?style=flat)](https://npmjs.org/package/dumi-template)
-
-A react library developed with dumi
-
-## Usage
-
-TODO
-
-## Options
-
-TODO
-
 ## Development
 
 ```bash
@@ -33,6 +20,12 @@ $ npm run docs:build
 
 # check your project for potential problems
 $ npm run doctor
+
+# publish new version to npm，
+$ npm run alpha
+# or
+$ npm run beta
+
 ```
 
 ## LICENSE

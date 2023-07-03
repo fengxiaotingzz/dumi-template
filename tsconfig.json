@@ -9,7 +9,8 @@
     "paths": {
       "@@/*": [".dumi/tmp/*"],
       "dumi-template": ["src"],
-      "dumi-template/*": ["src/*", "*"]
+      "dumi-template/*": ["src/*", "*"],
+      "@/utils/*": ["src/utils/*"]
     }
   },
   "include": [".dumi/**/*", ".dumirc.ts", "src/**/*"]
