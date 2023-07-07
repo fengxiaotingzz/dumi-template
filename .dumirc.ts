@@ -7,9 +7,18 @@ export default defineConfig({
   },
   alias: {
     '@/utils': '/src/utils',
+    '@/icon': '/src/icon',
   },
   resolve: {
     atomDirs: [{ type: 'components', dir: 'src/components' }],
+  },
+  define: {
+    prefixClx: 'x-comp',
+  },
+  lessLoader: {
+    modifyVars: {
+      hack: 'true; @import "@/css/variables.less"',
+    },
   },
   extraBabelPlugins: [
     [

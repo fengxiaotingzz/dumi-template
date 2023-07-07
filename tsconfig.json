@@ -8,9 +8,10 @@
     "baseUrl": "./",
     "paths": {
       "@@/*": [".dumi/tmp/*"],
-      "dumi-template": ["src"],
-      "dumi-template/*": ["src/*", "*"],
-      "@/utils/*": ["src/utils/*"]
+      "xvnext-components": ["src"],
+      "xvnext-components/*": ["src/*", "*"],
+      "@/utils/*": ["src/utils/*"],
+      "@/icon/*": ["src/icon/*"]
     }
   },
   "include": [".dumi/**/*", ".dumirc.ts", "src/**/*"]
