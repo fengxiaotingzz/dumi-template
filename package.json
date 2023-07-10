@@ -43,6 +43,7 @@
       "npm run test"
     ],
     "*.{ts,tsx}": [
+      "eslint --fix",
       "prettier --parser=typescript --write"
     ]
   },
@@ -75,6 +76,8 @@
     "prettier": "^2.7.1",
     "prettier-plugin-organize-imports": "^3.0.0",
     "prettier-plugin-packagejson": "^2.2.18",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "stylelint": "^14.9.1"
   },
   "peerDependencies": {
